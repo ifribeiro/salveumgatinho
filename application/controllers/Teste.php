@@ -20,6 +20,6 @@ class Teste extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('teste');
+		$this->load->view('testeooo');
 	}
 }
