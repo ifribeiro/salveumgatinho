@@ -8,3 +8,22 @@ estilos *******************/
 ul li{
     padding: 0 15px;
 }
+.container-principal{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#logo{
+    padding: 0%;
+    width: 40pt;
+
+}
+
+#campos-contato, #cards-informacoes{
+    padding-top: 20px;
+}
+
+.card-informacoes-titulo{
+    padding: 50pt;
+}
+
