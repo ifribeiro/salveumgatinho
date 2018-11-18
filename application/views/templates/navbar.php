@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,18 +42,18 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav mr-auto" id="espacamento">
             <li class="nav-item active">
-              <a class="nav-link" href="informacoes">Informações
+              <a class="nav-link" href="<?php base_url()?>/informacoes">Informações
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="noticias">Notícias</a>
+              <a class="nav-link" href="<?php base_url()?>/noticias">Notícias</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="quemsomos">Quem Somos</a>
+              <a class="nav-link" href="<?php base_url()?>/quemsomos">Quem Somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contato">Contato</a>
+              <a class="nav-link" href="<?php base_url()?>/contato">Contato</a>
             </li>
           </ul>
         </div>

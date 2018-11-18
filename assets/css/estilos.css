@@ -13,6 +13,12 @@ ul li{
     padding-bottom: 100px;
 }
 
+.respostas{
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: justify;
+}
+
 #logo{
     padding: 0%;
     width: 40pt;
@@ -20,10 +26,42 @@ ul li{
 }
 
 #campos-contato, #cards-informacoes{
-    padding-top: 20px;
+    padding-top: 20px;    
+}
+
+.shadow{
+    -moz-box-shadow:0 0 8px 0 black;
+    -webkit-box-shadow:0 0 8px 0 black;
+    box-shadow:0 0 8px 0 black;
+
+}
+
+.card-teste{
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    
 }
 
 .card-informacoes-titulo{
-    padding: 50pt;
+    padding: 50pt;   
 }
 
+p{
+    text-align: justify;
+}
+
+.btn-saber-mais{
+    color: black;
+}
+
+#titulo-email, #titulo-redes-sociais{
+    margin-top: 10pt;
+}
+
+#titulo-redes-sociais{
+    margin-bottom: 10pt;
+}
+
+#enviar-email{
+    margin-bottom: 10pt;
+}
