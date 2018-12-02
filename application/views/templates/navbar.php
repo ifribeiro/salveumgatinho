@@ -18,25 +18,31 @@
   </head>
 
   <body>
-  <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.2';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
 
+    <div class="" id="banner" style="background: #f7f7f7">
+    
+      <img class="rounded mx-auto d-block img-fluid" alt="Responsive image" src="<?php echo base_url()?>application/views/imagens/banner.png">
+
+    </div>
+  
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary sticky-top ">
       <div class="container">
-        <a class="navbar-brand navbar-left" href="/"><img id="logo" src="<?php echo base_url()?>logo.png">Salve um Gatinho</a>
+        <!--<a class="navbar-brand navbar-left" href="/"><img id="logo" src="<?php echo base_url()?>logo.png">Salve um Gatinho</a>-->
+        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav mr-auto" id="espacamento">
-            <li class="nav-item active">
+          
+          <ul class="navbar-nav mx-auto " id="espacamento">
+            
+          <li class="nav-item active">
+              <a class="nav-link" href="<?php base_url()?>/home">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            <li class="nav-item ">
               <a class="nav-link" href="<?php base_url()?>/informacoes">Informações
                 <span class="sr-only">(current)</span>
               </a>
