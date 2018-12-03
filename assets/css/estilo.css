@@ -8651,9 +8651,13 @@ ul li{
   -webkit-box-shadow:0 0 8px 0 black;
   box-shadow:0 0 8px 0 black;
 }
-
+.card-teste{
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+  
+}
 .card-informacoes-titulo{
-  padding: 50pt;   
+  padding: 0pt;   
 }
 p{
   text-align: justify;
@@ -8673,4 +8677,11 @@ p{
 
 #enviar-email{
     margin-bottom: 10pt;
+}
+
+#resgate.fa-first-aid{
+  color: green;
+}
+#adocao.fa-heart{
+  color: red;
 }
