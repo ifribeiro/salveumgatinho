@@ -11,11 +11,11 @@
         <!-- INICIO DO CARD !-->
         
 
-          <div  class="col-lg-2 col-md-6 mb-4 offset-lg-1">
+          <div  class="col-lg-3 col-md-6 mb-4 offset-lg-1">
               <div class="card shadow">
                 <span id="resgate" class="fas fa-first-aid fa-8x"></span>
                 <div class="card-header card-informacoes-titulo">Resgate</div>
-                <div class="card-body">              
+                <div class="card-body" >              
                   <p class="card-text">Encontrei um gatinho que precisa de ajuda, e agora?</p>
                 </div>
                 <div class="card-footer">
