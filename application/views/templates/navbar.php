@@ -14,6 +14,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url()?>assets/css/estilo.css" rel="stylesheet">
+    <!-- Fonte awesome -->
+    <link href="<?php echo base_url()?>assets/node_modules/font-awesome/css/all.css" rel="stylesheet">
 
     <!-- Estilo customizado -->
     <link href="<?php echo base_url()?>assets/css/estilo-customizado.css" rel="stylesheet">
