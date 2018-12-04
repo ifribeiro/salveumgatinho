@@ -17,18 +17,24 @@
     <!-- Fonte awesome -->
     <link href="<?php echo base_url()?>assets/node_modules/font-awesome/css/all.css" rel="stylesheet">
 
+    <!-- Estilo customizado -->
+    <link href="<?php echo base_url()?>assets/css/estilo-customizado.css" rel="stylesheet">
+
   </head>
 
   <body>
 
     <div class="" id="banner" style="background: #f7f7f7">
     
-      <img class="rounded mx-auto d-block img-fluid" alt="Responsive image" src="<?php echo base_url()?>application/views/imagens/banner.png">
+      <img style="width: 640px; height: 90px;" class=" mx-auto d-block img-fluid" alt="Responsive image" src="<?php echo base_url()?>application/views/imagens/banner.png">
 
     </div>
+
+  
   
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary sticky-top ">
+    <nav class="pb-1 navbar navbar-expand-lg navbar-light bg-primary sticky-top ">
+    
       <div class="container">
         <!--<a class="navbar-brand navbar-left" href="/"><img id="logo" src="<?php echo base_url()?>logo.png">Salve um Gatinho</a>-->
         
@@ -38,24 +44,24 @@
         
         <div class="collapse navbar-collapse" id="navbarResponsive">
           
-          <ul class="navbar-nav mx-auto " id="espacamento">
+          <ul class="navbar-nav mx-auto">
             
-          <li class="nav-item active">
+          <li class=" mx-4 nav-item active">
               <a class="nav-link" href="<?php base_url()?>/home">Home
                 <span class="sr-only">(current)</span>
               </a>
-            <li class="nav-item ">
+            <li class="mx-4 nav-item ">
               <a class="nav-link" href="<?php base_url()?>/informacoes">Informações
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="mx-4 nav-item">
               <a class="nav-link" href="<?php base_url()?>/noticias">Notícias</a>
             </li>
-            <li class="nav-item">
+            <li class="mx-4 nav-item">
               <a class="nav-link" href="<?php base_url()?>/quemsomos">Quem Somos</a>
             </li>
-            <li class="nav-item">
+            <li  class="mx-4 nav-item ">
               <a class="nav-link" href="<?php base_url()?>/contato">Contato</a>
             </li>
           </ul>
