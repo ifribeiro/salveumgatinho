@@ -8612,8 +8612,6 @@ h3 {
 }
 
 /*# sourceMappingURL=estilo.css.map */
-<<<<<<< HEAD
-=======
 
 /*---- ALTERAÇÕES FEITAS DEṔOIS DA MUDANÇA DE DIRETÓRIO */
 
@@ -8626,7 +8624,7 @@ ul li{
 }
 
 .container-principal{
-  padding-top: 100px;
+  padding-top: 10px;
   padding-bottom: 100px;
 }
 
@@ -8684,4 +8682,8 @@ p{
 #adocao.fa-heart{
   color: red;
 }
->>>>>>> bad9398552bc4ba208d8678ad55b5856417213af
+
+#campoemail, #camporedes{
+  background-color: #A9DCDD;
+}
+

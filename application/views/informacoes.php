@@ -11,7 +11,7 @@
         <!-- INICIO DO CARD !-->
         
 
-          <div  class="col-lg-3 col-md-6 mb-4 offset-lg-1">
+          <div  class="col-lg-3 col-md-6 px-4">
               <div class="card shadow">
                 <span id="resgate" class="fas fa-first-aid fa-8x"></span>
                 <div class="card-header card-informacoes-titulo">Resgate</div>
@@ -26,7 +26,7 @@
         <!-- FIM DO CARD !-->
 
         <!-- INICIO DO CARD !-->
-        <div class="col-lg-2 col-md-6">
+        <div class="col-lg-3 col-md-6 px-4">
           <div class="card shadow">
           <span id="adocao" class="fas fa-heart fa-8x"></span>
           <div class="card-header card-informacoes-titulo">Adoção</div>
@@ -41,7 +41,7 @@
         <!-- FIM DO CARD !-->
 
         <!-- INICIO DO CARD !-->
-        <div class="col-lg-2 col-md-6">
+        <div class="col-lg-3 col-md-6 px-4">
           <div class="card shadow">
             <span id="castracao" class="fas fa-cat fa-8x"></span>
             <div class="card-header card-informacoes-titulo">Castração</div>
@@ -56,7 +56,7 @@
         <!-- FIM DO CARD !-->
 
         <!-- INICIO DO CARD !-->
-        <div class="col-lg-2 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 px-4">
           <div class="card shadow">
           <span id="ajudar" class="fas fa-handshake fa-8x"></span>
           <div class="card-header card-informacoes-titulo">Quero Ajudar</div>
@@ -71,7 +71,7 @@
         <!-- FIM DO CARD !-->
 
         <!-- INICIO DO CARD !-->
-        <div class="col-lg-2 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 px-4">
           <div class="card shadow">
           <span id="lartemporario" class="fas fa-home fa-8x"></span>
           <div class="card-header card-informacoes-titulo">Lar temporário</div>
