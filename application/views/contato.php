@@ -11,7 +11,7 @@
             <h2>Entre em contato com a gente!</h2>            
         </header>
         <div id="campos-contato" class="row">     
-            <div class="col-lg-3 offset-lg-1 rounded shadow">
+            <div id="campoemail" class="col-lg-3 offset-lg-1 rounded shadow">
                 <form>
                     <header id="titulo-email" class="text-center">E-mail</header>
                     <div class="form-group">
@@ -29,7 +29,7 @@
                     <button id="enviar-email" type="button" class="btn btn-primary">Enviar</button>
                 </form>
             </div>            
-            <div class="col-lg-3 offset-lg-3 rounded shadow">
+            <div id="camporedes" class="col-lg-3 offset-lg-3 rounded shadow">
             <header id="titulo-redes-sociais" class="text-center"> Redes Sociais </header>
             <div class="fb-page" 
                 data-href="https://www.facebook.com/salveumgatinhovca"
