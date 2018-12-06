@@ -2,8 +2,7 @@
   $url_atual = $this->uri->segment(1);
 ?>
 
-<div class="container">
-    <div class="container-principal">
+<div class="container">    
         <header class="text-center">
             <h2>Informações</h2>            
         </header>
@@ -87,5 +86,4 @@
 
       </div>
       <!-- /.row -->
-    </div>   
-</div>
+    </div>

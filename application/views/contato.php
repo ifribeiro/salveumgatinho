@@ -6,7 +6,6 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 <div class="container">
-    <div class="container-principal">
         <header class="text-center">
             <h2>Entre em contato com a gente!</h2>            
         </header>
@@ -38,5 +37,4 @@
                 data-show-facepile="false"></div>
             </div>            
         </div>
-    </div>   
 </div>
