@@ -24,7 +24,7 @@
 
   <body>
 
-    <div class="" id="banner" style="background: #f7f7f7">
+    <div class="" id="" style="background: #f7f7f7">
     
       <img style="width: 640px; height: 90px;" class=" mx-auto d-block img-fluid" alt="Responsive image" src="<?php echo base_url()?>application/views/imagens/banner.png">
 
@@ -46,22 +46,22 @@
           
           <ul class="navbar-nav mx-auto">
             
-          <li class=" mx-4 nav-item active">
+          <li class=" mx-5 nav-item active">
               <a class="nav-link" href="<?php base_url()?>/home">Home
                 <span class="sr-only">(current)</span>
               </a>
-            <li class="mx-4 nav-item ">
+            <li class="mx-5 nav-item ">
               <a class="nav-link" href="<?php base_url()?>/informacoes">Informações
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="mx-4 nav-item">
+            <li class="mx-5 nav-item">
               <a class="nav-link" href="<?php base_url()?>/noticias">Notícias</a>
             </li>
-            <li class="mx-4 nav-item">
+            <li class="mx-5 nav-item">
               <a class="nav-link" href="<?php base_url()?>/quemsomos">Quem Somos</a>
             </li>
-            <li  class="mx-4 nav-item ">
+            <li  class="mx-5 nav-item ">
               <a class="nav-link" href="<?php base_url()?>/contato">Contato</a>
             </li>
           </ul>
