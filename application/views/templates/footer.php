@@ -13,6 +13,8 @@
 
     <script src="<?php echo base_url()?>assets/node_modules/popper.js/dist/popper.js"></script>
 
+    <script src="<?php echo base_url()?>assets/js/less.js"></script>
+
   </body>
 
 </html>
