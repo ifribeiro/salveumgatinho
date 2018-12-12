@@ -15,26 +15,24 @@
                     <header id="titulo-email" class="text-center">E-mail</header>
                     <div class="form-group">
                         <label for="nome-contato">Nome</label>
-                        <input size="10" type="text" class="form-control" id="nome-contato" placeholder="Insira seu nome">                    
-                    </div>
-                    <div class="form-group">
+                        <input size="10" type="text" class="form-control" id="nome-contato" placeholder="Insira seu nome">      
                         <label for="email-contato">Email</label>
                         <input type="email" class="form-control" id="email-contato" placeholder="Seu e-mail">
                     </div>
                     <div class="form-group">
                         <label for="mensagem-contato">Mensagem</label>
-                        <textarea rows="" cols="26"></textarea>
+                        <textarea rows="" class="form-control"></textarea>
                     </div>           
                     <button id="enviar-email" type="button" class="btn btn-primary">Enviar</button>
                 </form>
             </div>            
-            <div id="camporedes" class="col-lg-3 offset-lg-3 rounded shadow">
-            <header id="titulo-redes-sociais" class="text-center"> Redes Sociais </header>
-            <div class="fb-page" 
-                data-href="https://www.facebook.com/salveumgatinhovca"
-                data-width="380" 
-                data-hide-cover="false"
-                data-show-facepile="false"></div>
-            </div>            
-        </div>
+            <div style="width: 100%" id="camporedes" class="col-lg-3 offset-lg-3 rounded shadow">
+                <header id="titulo-redes-sociais" class="text-center"> Redes Sociais </header>
+                <div class="fb-page" 
+                    data-href="https://www.facebook.com/salveumgatinhovca"
+                    data-width="500px" 
+                    data-hide-cover="false"
+                    data-show-facepile="false"></div>
+                </div>            
+            </div>
 </div>
