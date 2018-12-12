@@ -20,6 +20,8 @@
     <!-- Estilo customizado -->
     <link href="<?php echo base_url()?>assets/css/estilo-customizado.css" rel="stylesheet">
 
+    <link href="<?php echo base_url()?>assets/css/cards.less" rel="stylesheet/less" type="text/css">
+
   </head>
 
   <body>
@@ -36,8 +38,7 @@
     <nav class="pb-1 navbar navbar-expand-lg navbar-light bg-primary sticky-top ">
     
       <div class="container">
-        <!--<a class="navbar-brand navbar-left" href="/"><img id="logo" src="<?php echo base_url()?>logo.png">Salve um Gatinho</a>-->
-        
+                
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
