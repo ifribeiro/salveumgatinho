@@ -24,7 +24,7 @@
 
   <body>
 
-    <div class="" id="" style="background: #f7f7f7">
+    <div class="" id="" style="background: #fff159">
     
       <img style="width: 640px; height: 90px;" class=" mx-auto d-block img-fluid" alt="Responsive image" src="<?php echo base_url()?>application/views/imagens/banner.png">
 
