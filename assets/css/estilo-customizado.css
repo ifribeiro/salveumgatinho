@@ -47,11 +47,18 @@ width: 40pt;
 -webkit-box-shadow:0 0 8px 0 black;
 box-shadow:0 0 8px 0 black;
 }
-.card-teste{
-border-top-left-radius: 15%;
-border-top-right-radius: 15%;
+
+.borda-card{
+border-top-left-radius: 25%;
+border-top-right-radius: 25%;
+border-bottom-left-radius: 25%;
+border-bottom-right-radius: 25%;
 
 }
+.borda-img-card{
+    
+}
+
 .card-informacoes-titulo{
 padding: 0pt;   
 }
