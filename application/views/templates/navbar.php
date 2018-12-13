@@ -35,7 +35,7 @@
   
   
     <!-- Navigation -->
-    <nav class="pb-1 navbar navbar-expand-lg navbar-light bg-primary sticky-top ">
+    <nav class="pb-0 navbar navbar-expand-lg navbar-light bg-primary sticky-top ">
     
       <div class="container">
                 
@@ -47,24 +47,21 @@
           
           <ul class="navbar-nav mx-auto">
             
-          <li class=" mx-5 nav-item active">
-              <a class="nav-link" href="<?php base_url()?>/home">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            <li class="mx-5 nav-item ">
-              <a class="nav-link" href="<?php base_url()?>/informacoes">Informações
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="mx-5 nav-item">
+          <li id="home" class="mx-5 nav-item">
+              <a class="nav-link" href="<?php base_url()?>/home">Home</a>
+          </li>
+          <li id="informacoes" class="mx-5 nav-item">
+              <a class="nav-link" href="<?php base_url()?>/informacoes">Informações</a>
+          </li>
+          <li id="noticias" class="mx-5 nav-item">
               <a class="nav-link" href="<?php base_url()?>/noticias">Notícias</a>
-            </li>
-            <li class="mx-5 nav-item">
+          </li>
+          <li id="quemsomos" class="mx-5 nav-item">
               <a class="nav-link" href="<?php base_url()?>/quemsomos">Quem Somos</a>
-            </li>
-            <li  class="mx-5 nav-item ">
+          </li>
+          <li id="contato" class="mx-5 nav-item">
               <a class="nav-link" href="<?php base_url()?>/contato">Contato</a>
-            </li>
+          </li>
           </ul>
         </div>
       </div>
