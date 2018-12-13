@@ -50,7 +50,7 @@ $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
-$tema1:   #fff159;
+$tema1:   #fff36b;
 
 $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -105,13 +105,6 @@ $theme-colors: map-merge(
 
 $navbar-light-color:                rgba($black, 1) !default;
 
-
-$container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px
-) !default;
 
 
 //--------------------------------------------------------------------------------------------------

@@ -104,3 +104,6 @@ background-color: #A9DCDD;
 .navbar-nav > .active > a {    
     border-bottom: 2px solid #FF1E58;
 }
+.opacidade-card{
+    opacity: 0.5;
+}

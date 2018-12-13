@@ -14,19 +14,21 @@
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url()?>assets/css/estilo.css" rel="stylesheet">
-    <!-- Fonte awesome -->
-    <link href="<?php echo base_url()?>assets/node_modules/font-awesome/css/all.css" rel="stylesheet">
-
+    
     <!-- Estilo customizado -->
     <link href="<?php echo base_url()?>assets/css/estilo-customizado.css" rel="stylesheet">
 
-    <link href="<?php echo base_url()?>assets/css/cards.less" rel="stylesheet/less" type="text/css">
+    <!-- Fonte awesome -->
+    <link href="<?php echo base_url()?>assets/node_modules/font-awesome/css/all.css" rel="stylesheet">
+
+    <!-- Formatação dos cards -->
+    
 
   </head>
 
   <body>
 
-    <div class="" id="" style="background: #fff159">
+    <div class="" id="" style="background: #fff36b">
     
       <img style="width: 640px; height: 90px;" class=" mx-auto d-block img-fluid" alt="Responsive image" src="<?php echo base_url()?>application/views/imagens/banner.png">
 
