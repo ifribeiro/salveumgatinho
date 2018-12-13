@@ -86,10 +86,14 @@ color: red;
 background-color: #A9DCDD;
 }
 
-.card-img-top{
+/*.card-img-top{
     filter: contrast(70%);
-}
+}*/
 
 .btn-card{
     margin-bottom: 10px;
+}
+
+.opacidade-card{
+    opacity: 0.5;
 }
