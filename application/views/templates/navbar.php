@@ -22,6 +22,7 @@
     <link href="<?php echo base_url()?>assets/node_modules/font-awesome/css/all.css" rel="stylesheet">
 
     <!-- Formatação dos cards -->
+    <link href="<?php echo base_url()?>assets/css/cards.less" rel="stylesheet/less">
     
 
   </head>
