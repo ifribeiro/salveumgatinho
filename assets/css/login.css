@@ -25,7 +25,6 @@ http://www.bootstrapzen.com/item/135/simple-login-form-logo/
 	  height: auto;
 	  padding: 10px;
 		@include box-sizing(border-box);
-
 		&:focus {
 		  z-index: 2;
 		}
@@ -70,6 +69,6 @@ form[role=login] {
 	margin-top: 1em;
 	margin-bottom: 50px;
 }
-	.form-links a {
-		color: #fff;
-	}
+.form-links a {
+	color: #FD2158;
+}

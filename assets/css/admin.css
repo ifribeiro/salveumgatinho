@@ -199,3 +199,20 @@ input:checked + .slider {
   bottom: 10px;
 }
 /* FIM DO SWITCHER  */
+
+/*Botão de logout */
+#logout{
+  background-color: transparent;
+  -webkit-transition-duration: 1.0s;
+  -moz-transition-duration: 1.0s;
+  -o-transition-duration: 1.0s;
+  transition-duration: 1.0s;
+}
+
+#logout:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/*Fim do botao de logout*/

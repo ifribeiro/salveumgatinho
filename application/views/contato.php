@@ -37,13 +37,19 @@
             
             <!-- Redes sociais -->
             <div id="camporedes" class="col-lg-3 offset-lg-1 col-md-6  mt-2 rounded shadow">
-            <header id="titulo-redes-sociais" class="text-center"> Redes Sociais </header>
-            <div class="fb-page" 
-                data-href="https://www.facebook.com/salveumgatinhovca"
-                data-width="380" 
-                data-hide-cover="false"
-                data-show-facepile="false"></div>
-            </div>   
+                <div class="row mt-3">
+                    <div class="col-lg-12">
+                        <a class="btn" href="https://www.facebook.com/salveumgatinhovca/"><span class="fab fa-facebook fa-3x"></span>/salveumgatinhovca</a>
+                    </div>                    
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <a class="btn" href="https://www.instagram.com/salveumgatinho/"><span class="fab fa-instagram fa-3x"></span>@salveumgatinho</a>
+                    </div>
+                    
+                </div>
+                
+            </div>
             <!-- FIM Redes sociais -->         
 
         </div>

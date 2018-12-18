@@ -100,10 +100,10 @@ $db['local'] = array(
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
+	'hostname' => 'johnny.heliohost.org',
+	'username' => 'ifreitas_salveum',
+	'password' => 'gato321',
+	'database' => 'ifreitas_salveumgatinho',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

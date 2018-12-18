@@ -31,44 +31,48 @@
             <img style="width: auto; height: 38px;" class="img-fluid" alt="Responsive image" src="<?php echo base_url()?>application/views/imagens/banner.png">
         </div>
         <ul class="navbar-nav px-3">
-            <li class="nav-item text-nowrap">
-            <a style="color: black;"class="nav-link" href="#">Sign out</a>
-            </li>
+            <form action="logout" method="post">
+                <li class="nav-item text-nowrap">   
+                    <button id="logout" class="btn" type="submit"><span class="fas fa-sign-out-alt"></span>Sair</button>
+                </li>
+            </form>
+            
         </ul>
         </nav>
 
         <div class="container-fluid">
     
         <div class="row">
-        
+        <!-- Início do Sidebar  -->
         <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-        <div class="sidebar-sticky">
-        
-            <ul class="nav flex-column">
-            <li class="nav-item">
-                <a class="nav-link active" href="<?php echo base_url();?>admin/gerenciaradocoes">
-                <span class="fas fa-cat"></span>
-                Gerenciar adoções <span class="sr-only">(current)</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url();?>admin/gerenciarnoticias">
-                <span class="fas fa-newspaper"></span>
-                Gerenciar Notícias
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url();?>admin/gerenciarinformacoes"">
-                <span class="fas fa-paw"></span>
-                    Gerenciar informações
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo $url_atual;?>/gerenciaradocoes"">
-                <span data-feather="users"></span>
-                Customers
-                </a>
-            </li>
-            </ul>                        
-        </div>
+            <div class="sidebar-sticky">
+            
+                <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" href="<?php echo base_url();?>admin/gerenciaradocoes">
+                    <span class="fas fa-cat"></span>
+                    Gerenciar adoções <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo base_url();?>admin/gerenciarnoticias">
+                    <span class="fas fa-newspaper"></span>
+                    Gerenciar Notícias
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo base_url();?>admin/gerenciarinformacoes"">
+                    <span class="fas fa-paw"></span>
+                        Gerenciar informações
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo $url_atual;?>/gerenciaradocoes"">
+                    <span data-feather="users"></span>
+                    Customers
+                    </a>
+                </li>
+                </ul>                        
+            </div>
         </nav>
+        <!-- Fim do sidebar -->
