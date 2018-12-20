@@ -24,7 +24,7 @@ $(document).ready(function(){
      */
     function setNavAtivo(){
         var pathname = window.location.pathname;        
-        var elementoAtivo = $('.navbar-nav li a[href="'+pathname+'"]').parent();
+        var elementoAtivo = $('.navbar-nav li a[href="'+pathname+'"]').parent();        
         elementoAtivo.addClass('active');
         var idatual = elementoAtivo.attr('id');
         if(idatual!=undefined){            

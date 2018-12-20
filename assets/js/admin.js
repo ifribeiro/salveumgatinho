@@ -1,28 +1,34 @@
 $(document).ready(function(){
-    $("#loginPainel").click(function(){
-        console.log("Teste");
-        Swal({
-            title: 'Error!',
-            text: 'Do you want to continue',
-            type: 'error',
-            confirmButtonText: 'Cool'
-          })
-    });
-
-    function loginPainel(){
-        $.ajax({
-            type: 'POST',
-            url: "mysubmitpage.php",
-            data: $('#addCommentForm').serialize(), 
-            success: function(response) {
-               alert("Submitted comment"); 
-                $("#commentList").append("Name:" + $("#name").val() + "<br/>comment:" + $("#body").val());
-            },
-           error: function() {
-                //$("#commentList").append($("#name").val() + "<br/>" + $("#body").val());
-               alert("There was an error submitting comment");
-           }
-        });
+    setAtivo();
+    salvaAtualAtivo();   
+    
+    /**
+     * Salva o navbar ativo para quando 
+     * o link clicado for uma pasta interna do navbar ativo
+     * exemplo: "informações/resgate"
+     * dessa o menu informações não perderia seu status de ativo
+     */
+    function salvaAtualAtivo(){
+        var setado = false;
+        /**Atualiza o navbar com o menu atual que está selecionado */
+        var idativo = localStorage.getItem('idAdminativo');      
+        if(idativo != null){
+            $('.nav li').removeClass('active');
+            $('#' + idativo).addClass("active");            
+        }        
     }
 
+    /**
+     * Atualiza o navbar ativo
+     */
+    function setAtivo(){
+        $('li > a').removeClass('active');
+        var pathname = window.location.pathname;        
+        var elementoAtivo = $('nav li a[href="'+pathname+'"]');                         
+        elementoAtivo.addClass('active');
+        var idatual = elementoAtivo.attr('id');        
+        if(idatual!=undefined){            
+            localStorage.setItem('idAdminativo',idatual);
+        }        
+    }
 });

@@ -48,30 +48,30 @@
             <div class="sidebar-sticky">
             
                 <ul class="nav flex-column">
-                <li class="nav-item">
-                    <a class="nav-link active" href="<?php echo base_url();?>admin/gerenciaradocoes">
-                    <span class="fas fa-cat"></span>
-                    Gerenciar adoções <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url();?>admin/gerenciarnoticias">
-                    <span class="fas fa-newspaper"></span>
-                    Gerenciar Notícias
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url();?>admin/gerenciarinformacoes"">
-                    <span class="fas fa-paw"></span>
-                        Gerenciar informações
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo $url_atual;?>/gerenciaradocoes"">
-                    <span data-feather="users"></span>
-                    Customers
-                    </a>
-                </li>
+                    <li id="gerenciaradocoes" class="nav-item">
+                        <a class="nav-link" href="<?php base_url();?>/admin/gerenciaradocoes">
+                        <span class="fas fa-cat"></span>
+                        Gerenciar adoções
+                        </a>
+                    </li>
+                    <li id="gerenciarnoticias" class="nav-item">
+                        <a class="nav-link" href="<?php base_url();?>/admin/gerenciarnoticias">
+                        <span class="fas fa-newspaper"></span>
+                        Gerenciar Notícias
+                        </a>
+                    </li>
+                    <li id="gerenciarinformacoes" class="nav-item">
+                        <a class="nav-link" href="<?php base_url();?>/admin/gerenciarinformacoes"">
+                        <span class="fas fa-paw"></span>
+                            Gerenciar informações
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo $url_atual;?>/gerenciaradocoes"">
+                        <span data-feather="users"></span>
+                        Customers
+                        </a>
+                    </li>
                 </ul>                        
             </div>
         </nav>
