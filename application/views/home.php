@@ -8,14 +8,16 @@
     <div class="row mt-3 mb-3 ">
 
         <!-- 3 BOTÕES -->
-        <div style="" class="row d-flex flex-md-column col-md-4 col-12 justify-content-around">
+        <div style="" class="row d-flex flex-md-column col-lg-4 col-sm-12 align-items-center justify-content-center">
 
         <!-- Início BOTÃO 1 -->
         <div class="mr-4 d-flex align-items-center mb-2" style="width: 16rem;">
           <img class="card-img-top " src="<?php echo base_url()?>application/views/imagens/cruz.png" alt="Card image cap">
           <div class="mt-1">
-            <h5 class="text-center m-0">Resgate</h5>
-            <p class="text-center">Veja o que fazer quando encontrar um gatinho</p>
+            <a href="">
+              <h5 class="text-center m-0">Adote Um Gatinho</h5>
+              <p class="text-center">Veja o que fazer quando encontrar um gatinho</p>
+            </a>
           </div>
         </div>
         <!-- FIM BOTÃO 1 -->
@@ -44,7 +46,7 @@
         <!-- Fim div de botões -->
 
          <!-- div carousel -->
-        <div class="col-md-8 d-none d-lg-block" id="">
+        <div class="col-lg-8 d-none d-lg-block" id="">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
               
