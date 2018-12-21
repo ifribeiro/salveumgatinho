@@ -12,19 +12,17 @@
 
         <!-- Início BOTÃO 1 -->
         <div class="mr-4 d-flex align-items-center mb-2" style="width: 16rem;">
-          <img class="card-img-top " src="<?php echo base_url()?>application/views/imagens/cruz.png" alt="Card image cap">
+          <img class="card-img-top " src="<?php echo base_url()?>application/views/imagens/gato1.png" alt="Card image cap">
           <div class="mt-1">
-            <a href="">
-              <h5 class="text-center m-0">Adote Um Gatinho</h5>
-              <p class="text-center">Veja o que fazer quando encontrar um gatinho</p>
-            </a>
+            <h5 class="text-center m-0">Adote Um Gatinho</h5>
+            <p class="text-center">Veja o os gatinhos para adoção</p>
           </div>
         </div>
         <!-- FIM BOTÃO 1 -->
 
         <!-- Início BOTÃO 2 -->
         <div class="mr-4 d-flex align-items-center mb-2" style="width: 16rem;">
-          <img class="card-img-top " src="<?php echo base_url()?>application/views/imagens/cruz.png" alt="Card image cap">
+          <img class="card-img-top " src="<?php echo base_url()?>application/views/imagens/gato2.png" alt="Card image cap">
           <div class="mt-1">
             <h5 class="text-center m-0">Resgate</h5>
             <p class="text-center">Veja o que fazer quando encontrar um gatinho</p>
@@ -34,10 +32,10 @@
 
         <!-- Início BOTÃO 3 -->
         <div class="mr-4 d-flex align-items-center mb-2" style="width: 16rem;">
-          <img class="card-img-top " src="<?php echo base_url()?>application/views/imagens/cruz.png" alt="Card image cap">
+          <img class="card-img-top " src="<?php echo base_url()?>application/views/imagens/gato3.png" alt="Card image cap">
           <div class="mt-1">
             <h5 class="text-center m-0">Ajude-nos</h5>
-            <p class="text-center">Saiba o que fazer para ajudar nossa ONG</p>
+            <p class="text-center">Saiba como ajudar nossa ONG</p>
           </div>
         </div>
         <!-- FIM BOTÃO 3 -->
@@ -51,11 +49,15 @@
           <div class="carousel-inner">
               
               <div class="carousel-item active">
-                <img class="d-block w-100" src="<?php echo base_url()?>application/views/imagens/tela1.jpg" alt="First slide">
+                <img class="d-block w-100" src="<?php echo base_url()?>application/views/imagens/slide1.jpg" alt="First slide">
               </div>
 
               <div class="carousel-item">
-                <img class="d-block w-100" src="<?php echo base_url()?>application/views/imagens/tela2.jpg" alt="Second slide">
+                <img class="d-block w-100" src="<?php echo base_url()?>application/views/imagens/slide2.jpg" alt="Second slide">
+              </div>
+
+              <div class="carousel-item">
+                <img class="d-block w-100" src="<?php echo base_url()?>application/views/imagens/slide3.jpg" alt="Second slide">
               </div>
 
           </div>
