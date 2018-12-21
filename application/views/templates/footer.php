@@ -1,5 +1,5 @@
  <!-- Footer -->
-    <footer class="py-2 bg-dark">
+    <footer class="py-2 bg-dark" style="position: relative">
       <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; Salve um gatinho  2018</p>
       </div>

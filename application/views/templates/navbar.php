@@ -28,9 +28,10 @@
 
   <body>
 
-    <div class="" id="" style="background: #fff36b">
+    <div class="d-none d-lg-block" id="" style="background: #fff36b">
     
-      <img style="width: 640px; height: 90px;" class=" mx-auto d-block img-fluid" alt="Responsive image" src="<?php echo base_url()?>application/views/imagens/banner.png">
+      <img style="width: 640px; height: 90px;" class=" mx-auto d-block img-fluid " alt="Responsive image" src="<?php echo base_url()?>application/views/imagens/banner.png">
+      
 
     </div>
 
@@ -40,6 +41,14 @@
     <nav class="pb-1 navbar navbar-expand-lg navbar-light bg-primary sticky-top ">
     
       <div class="container">
+
+        <a class="navbar-brand d-none d-sm-block d-lg-none" href="">
+          <img src="<?php echo base_url()?>application/views/imagens/bannerpequeno.png" class="img-fluid" alt="">
+        </a>
+
+        <a class="navbar-brand d-block d-sm-none" href="">
+          <img src="<?php echo base_url()?>application/views/imagens/bannerpequeno2.png" class="img-fluid" alt="">
+        </a>
                 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -49,22 +58,22 @@
           
           <ul class="navbar-nav mx-auto">
             
-          <li class=" mx-5 nav-item active">
+          <li class=" mx-4 nav-item active">
               <a class="nav-link" href="<?php base_url()?>/home">Home
                 <span class="sr-only">(current)</span>
               </a>
-            <li class="mx-5 nav-item ">
+            <li class="mx-4 nav-item ">
               <a class="nav-link" href="<?php base_url()?>/informacoes">Informações
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="mx-5 nav-item">
+            <li class="mx-4 nav-item">
               <a class="nav-link" href="<?php base_url()?>/noticias">Notícias</a>
             </li>
-            <li class="mx-5 nav-item">
+            <li class="mx-4 nav-item">
               <a class="nav-link" href="<?php base_url()?>/quemsomos">Quem Somos</a>
             </li>
-            <li  class="mx-5 nav-item ">
+            <li  class="mx-4 nav-item ">
               <a class="nav-link" href="<?php base_url()?>/contato">Contato</a>
             </li>
           </ul>

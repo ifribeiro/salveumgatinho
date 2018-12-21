@@ -104,3 +104,7 @@ background-color: #A9DCDD;
 .opacidade-card{
     opacity: 0.5;
 }
+
+.back{
+    background-size: cover;
+}
