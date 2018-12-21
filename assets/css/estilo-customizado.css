@@ -49,16 +49,12 @@ box-shadow:0 0 8px 0 black;
 }
 
 .borda-card{
-border-top-left-radius: 25%;
-border-top-right-radius: 25%;
-border-bottom-left-radius: 25%;
-border-bottom-right-radius: 25%;
+border-top-left-radius: 10%;
+border-top-right-radius: 10%;
+border-bottom-left-radius: 15%;
+border-bottom-right-radius: 15%;
 
 }
-.borda-img-card{
-    
-}
-
 .card-informacoes-titulo{
 padding: 0pt;   
 }
@@ -93,14 +89,21 @@ color: red;
 background-color: #A9DCDD;
 }
 
-/*.card-img-top{
+.card-imagem{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
     filter: contrast(70%);
-}*/
+    border: 1px solid black;
+}
 
 .btn-card{
     margin-bottom: 10px;
 }
 
+
+.navbar-nav > .active > a {    
+    border-bottom: 2px solid #FF1E58;
+}
 .opacidade-card{
     opacity: 0.5;
 }

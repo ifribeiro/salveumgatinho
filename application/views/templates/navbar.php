@@ -22,6 +22,7 @@
     <link href="<?php echo base_url()?>assets/node_modules/font-awesome/css/all.css" rel="stylesheet">
 
     <!-- Formatação dos cards -->
+    <link href="<?php echo base_url()?>assets/css/cards.less" rel="stylesheet/less">
     
 
   </head>
@@ -38,7 +39,7 @@
   
   
     <!-- Navigation -->
-    <nav class="pb-1 navbar navbar-expand-lg navbar-light bg-primary sticky-top ">
+    <nav class="pb-0 navbar navbar-expand-lg navbar-light bg-primary sticky-top ">
     
       <div class="container">
 
@@ -75,7 +76,7 @@
             </li>
             <li  class="mx-4 nav-item ">
               <a class="nav-link" href="<?php base_url()?>/contato">Contato</a>
-            </li>
+          </li>
           </ul>
         </div>
       </div>
