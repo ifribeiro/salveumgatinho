@@ -146,6 +146,10 @@ body {
     height: 100%;
   }
 
+  #imgGato{
+    display: none;
+  }
+/**FIM DO CARD CUSTOMIZADO **/
   /**
   Switcher dos cards de adoção
   **/

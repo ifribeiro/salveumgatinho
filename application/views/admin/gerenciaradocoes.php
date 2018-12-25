@@ -61,10 +61,12 @@
                     <!-- Início do row -->
                     <div class="row">
                         <!-- Início do DIV -->
-                        <div style="width: 400; height: 300; background-color: grey;" class="col-lg-4 ml-5">                              
-                            <div class="check_adotado" data-toggle="tooltip" data-placement="top" title="Editar imagem">                                
-                                <button class="card-adocao-btn btn"><span class="fas fa-edit"> </span> </button>
+                        <div style="width: 100%;" class="col-lg-4 ml-5">                              
+                            <div class="check_adotado" data-toggle="tooltip" data-placement="top" title="Editar imagem">                    
+                                <button id="botaoEditarImagem" class="card-adocao-btn btn"><span class="fas fa-edit"> </span> </button>
                             </div>
+                            <input type="file" id="imgGato">
+                            <img  style="width:100%; heigth: 100%;" id="divImgGato" src="" alt="">
                         </div>
                         <!-- Fim do div -->
                         <div class="col-lg-6 ml-5">
