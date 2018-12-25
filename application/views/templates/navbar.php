@@ -59,22 +59,22 @@
           
           <ul class="navbar-nav mx-auto">
             
-          <li class=" mx-4 nav-item active">
+          <li id="home" class=" mx-4 nav-item">
               <a class="nav-link" href="<?php base_url()?>/home">Home
                 <span class="sr-only">(current)</span>
               </a>
-            <li class="mx-4 nav-item ">
+            <li id="informacoes" class="mx-4 nav-item ">
               <a class="nav-link" href="<?php base_url()?>/informacoes">Informações
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="mx-4 nav-item">
+            <li id="noticias" class="mx-4 nav-item">
               <a class="nav-link" href="<?php base_url()?>/noticias">Notícias</a>
             </li>
-            <li class="mx-4 nav-item">
+            <li id="quemsomos" class="mx-4 nav-item">
               <a class="nav-link" href="<?php base_url()?>/quemsomos">Quem Somos</a>
             </li>
-            <li  class="mx-4 nav-item ">
+            <li id="contato" class="mx-4 nav-item ">
               <a class="nav-link" href="<?php base_url()?>/contato">Contato</a>
           </li>
           </ul>

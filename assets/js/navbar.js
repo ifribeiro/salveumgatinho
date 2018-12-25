@@ -9,8 +9,7 @@ $(document).ready(function(){
      * exemplo: "informações/resgate"
      * dessa o menu informações não perderia seu status de ativo
      */
-    function salvaAtualAtivo(){
-        var setado = false;
+    function salvaAtualAtivo(){        
         /**Atualiza o navbar com o menu atual que está selecionado */
         var idativo = localStorage.getItem('idativo');      
         if(idativo != null){
@@ -27,6 +26,7 @@ $(document).ready(function(){
         var elementoAtivo = $('.navbar-nav li a[href="'+pathname+'"]').parent();        
         elementoAtivo.addClass('active');
         var idatual = elementoAtivo.attr('id');
+        console.log(idatual);
         if(idatual!=undefined){            
             localStorage.setItem('idativo',idatual);
         }        
