@@ -15,4 +15,19 @@ class Admin_model extends CI_Model {
         }
     }
 
+    function salvarNovoGato($nome,$idade,$sexo,$desc){
+        $data = array(
+            'nm_gato' => "'".$nome."'",
+            'nm_idade' => "'".$idade."'",
+            'nm_sexo' => "'".$sexo."'",
+            'nm_desc' => "'".$desc."'"
+        );    
+        return $this->db->insert('gatos_teste', $data);
+    }
+
+    function exibirGatos(){
+        $query = $this->db->get('gatos_teste');
+        return $query->result(); //retorna o resultado da query
+    }
+
 }

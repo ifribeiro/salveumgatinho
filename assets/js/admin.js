@@ -36,6 +36,10 @@ $(document).ready(function(){
         document.getElementById('imgGato').click();
     });
 
+    $("#btn_exibir_gatos").click(function(){
+        atualizarListaGatos();
+    });
+
     $("#imgGato").change(function() {
         readURL(this);
     });
@@ -52,5 +56,79 @@ $(document).ready(function(){
         }
     }
 
+
+    /**
+     * Realiza a ação quando o botão de salvar novo gatinho
+     * é clicado
+     */
+    $("#btn-salvar-gato").click(function(){
+        var nm_novo_gato = $("#nm-novo-gato").val();
+        var sl_novo_sexo = $('#sl-novo-sexo :selected').text();
+        var sl_novo_idade = $('#sl-novo-idade :selected').text();
+        var nm_desc_gato_novo=$("#nm-desc-gato-novo").val();
+        console.log(nm_novo_gato);
+        console.log(sl_novo_sexo);
+        console.log(sl_novo_idade);
+        console.log(nm_desc_gato_novo);        
+        salvarNovoGato(nm_novo_gato,sl_novo_idade, sl_novo_sexo, nm_desc_gato_novo);
+    });
+
+    /**
+     * Salva um novo gato no banco de dados
+     * @param {*} nm_gato Nome do gato
+     * @param {*} idade idade do gato (filhote/adulto)
+     * @param {*} sexo sexo do gato
+     * @param {*} desc Descrição do gato
+     */
+    function salvarNovoGato(nm_gato, idade, sexo, desc){
+        $.ajax({
+            //chama a função de loginPainel do controller Login            
+            url: $("#baseUrl").val() + 'Admin/salvarNovoGato',
+            method: "POST",
+            delay: 800,
+            dataType: "json",
+            data: {
+                nm_gato:nm_gato,
+                nm_idade: idade,
+                nm_sexo: sexo,
+                nm_desc: desc
+            }, 
+            success: function(data) {
+                console.log("Sucesso");
+                $('#modalNovo').modal('hide');
+                atualizarListaGatos();
+                
+            },
+           error: function() {
+            console.log();
+            swal({
+                title: 'Erro!',
+                text: 'Senha ou usuários incorretos',
+                type: 'error',
+                confirmButtonText: 'Ok'
+              })
+           }
+        });
+    }
+
+    function atualizarListaGatos(){
+        $.ajax({
+            //chama a função de loginPainel do controller Login            
+            url: $("#baseUrl").val() + 'Admin/exibirGatos',
+            method: "GET",
+            delay: 800,
+            dataType: "json", 
+            success: function(data) {
+                data.forEach(element => {
+                    console.log(element);
+                });
+                
+            },
+           error: function() {
+            console.log();
+            
+           }
+        });
+    }
 
 });

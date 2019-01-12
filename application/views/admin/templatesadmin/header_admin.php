@@ -26,6 +26,7 @@
   </head>
 
   <body>
+    <input hidden id="baseUrl" value="<?php echo base_url();?>">
     <nav style="background: #fff478" class="navbar fixed-top flex-md-nowrap p-0 shadow ">
         <div class="" id="" style="background: #fff478;">
             <img style="width: auto; height: 38px;" class="img-fluid" alt="Responsive image" src="<?php echo base_url()?>application/views/imagens/banner.png">

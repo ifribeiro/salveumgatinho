@@ -11,6 +11,10 @@
                 <div class="btn-group mr-2">
                     <button class="btn btn-bg" data-toggle="modal" data-target="#modalNovo"><span class="fas fa-plus-circle fa-bg"></span>Adicionar gatinho</button>            
                 </div>
+
+                <div class="btn-group mr-2">
+                    <button class="btn btn-bg" id="btn_exibir_gatos" ><span class="fas fa-plus-circle fa-bg"></span>Exibir gatinhos</button>            
+                </div>
                 <!-- Fim do botão -->          
             </div>
             <!-- Fim div btn-toolbar -->
@@ -119,8 +123,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="row mb-3">
-                        <div style="width: 400; height: 300; background-color: grey;" class="col-lg-4 ml-5">
-                                
+                        <div style="width: 400; height: 300; background-color: grey;" class="col-lg-4 ml-5">                                
                             <div class="check_adotado" data-toggle="tooltip" data-placement="top" title="Editar imagem">                                
                                 <button class="card-adocao-btn btn"><span class="fas fa-edit"> </span> </button>
                             </div>
@@ -128,24 +131,24 @@
                         <div class="col-lg-6 ml-5">
                             <!-- INICIO DO FORM -->
                             <form>
-                                <label for="nmGato">Nome</label>
-                                <input type="email" class="form-control" id="nmGato" placeholder="Nome do gatinho">
+                                <label for="nm-novo-gato">Nome</label>
+                                <input type="email" class="form-control" id="nm-novo-gato" placeholder="Nome do gatinho">
 
                                 <!-- INÍCIO DO SELECT -->
-                                <label for="nmSexo">Sexo</label>
-                                <select class="form-control">
-                                    <option>Escolha...</option>
-                                    <option>Feminino</option>
-                                    <option>Masculino</option>
+                                <label for="nm-novo-sexo">Sexo</label>
+                                <select id="sl-novo-sexo" class="form-control">
+                                    <option selected>Escolha...</option>
+                                    <option value="1">Feminino</option>
+                                    <option value="2">Masculino</option>
                                 </select>
                                 <!-- FIM DO SELECT -->
 
                                 <!-- INÍCIO DO SELECT -->
-                                <label for="nmSexo">Idade</label>
-                                <select class="form-control">
-                                    <option>Escolha...</option>
-                                    <option>Filhote</option>
-                                    <option>Adulto</option>
+                                <label for="sl-novo-idade">Idade</label>
+                                <select id="sl-novo-idade" class="form-control">
+                                    <option selected>Escolha...</option>
+                                    <option value="1">Filhote</option>
+                                    <option value="2">Adulto</option>
                                 </select>
                                 <!-- FIM DO SELECT -->
                             </form>
@@ -156,19 +159,16 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <form>
-                                <label for="descricaoGatinho"><h5>História do Gatinho</h5></label>
-                                <textarea id="descricaoGatinho" class="form-control" rows="" cols=""></textarea>                            
+                                <label for="nm-desc-gato-novo"><h5>História do Gatinho</h5></label>
+                                <textarea id="nm-desc-gato-novo" class="form-control" rows="" cols=""></textarea>                            
                             </form>
-                        </div>
-                        
-                    
+                        </div>                     
                     </div>                    
-            
-            
+                    <!-- FIM DO ROW -->           
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-                    <button type="button" class="btn btn-success">Salvar</button>
+                    <button id="btn-salvar-gato" type="button" class="btn btn-success">Salvar</button>
                 </div>
             </div>
         </div>

@@ -2,6 +2,13 @@
 
 class Admin extends CI_Controller {
 
+
+	public function __construct()
+    {
+        parent::__construct();
+		$this->load->model('admin_model');
+    }
+
 	public function index()
 	{		
 		$this->load->model('admin_model');
@@ -46,5 +53,25 @@ class Admin extends CI_Controller {
 		//define que o usuário não está logado
 		$this->session->set_userdata('logged_in',FALSE);
 		redirect('login'); //redireciona pro login
+	}
+
+	/**
+	 * Salva o novo gato cadastrado no banco de dados
+	 */
+	public function salvarNovoGato(){
+		//CRIAR FUNÇÃO NO MODEL
+		$this->load->model('admin_model');
+		$nome = $_POST['nm_gato'];
+		$idade = $_POST['nm_idade'];
+		$sexo = $_POST['nm_sexo'];
+		$desc = $_POST['nm_desc'];
+		$data = $this->admin_model->salvarNovoGato($nome,$idade,$sexo,$desc);
+
+		echo json_encode($data);
+	}
+
+	public function exibirGatos(){
+		$data = $this->admin_model->exibirGatos();
+		echo json_encode($data);
 	}
 }
